@@ -1,0 +1,22 @@
+train: /root/IP102/YOLO_FORMAT/images/train  # train images (relative to 'path') 128 images
+val: /root/IP102/YOLO_FORMAT/images/val  # val images (relative to 'path') 128 images
+test: /root/IP102/YOLO_FORMAT/images/test
+
+ 
+nc: 102
+ 
+names: ['riceleafroller','riceleafcaterpillar','paddystemmaggot','asiaticriceborer','yellowriceborer','ricegallmidge','RiceStemfly',
+        'brownplanthopper','whitebackedplanthopper','smallbrownplanthopper','ricewaterweevil','riceleafhopper','grainspreaderthrips',
+        'riceshellpest','grub','molecricket','wireworm','whitemarginedmoth','blackcutworm','largecutworm','yellowcutworm',
+        'redspider','cornborer','armyworm','aphids','Potosiabrevitarsis','peachborer','englishgrainaphid','greenbug',
+        'birdcherry-oataphid','wheatblossommidge','penthaleusmajor','longleggedspidermite','wheatphloeothrips','wheatsawfly',
+        'cerodontadenticornis','beetfly','fleabeetle','cabbagearmyworm','beetarmyworm','Beetspotflies','meadowmoth','beetweevil',
+        'sericaorientalismotschulsky','alfalfaweevil','flaxbudworm','alfalfaplantbug','tarnishedplantbug','Locustoidea','lyttapolita',
+        'legumeblisterbeetle','blisterbeetle','therioaphismaculataBuckton','odontothripsloti','Thrips','alfalfaseedchalcid',
+        'Pieriscanidia','Apolyguslucorum','Limacodidae','Viteusvitifoliae','Colomerusvitis','BrevipoalpuslewisiMcGregor','oidesdecempunctata',
+        'Polyphagotarsonemuslatus','PseudococcuscomstockiKuwana','parathreneregalis','Ampelophaga','Lycormadelicatula','Xylotrechus','Cicadellaviridis','Miridae',
+        'Trialeurodesvaporariorum','Erythroneuraapicalis','Papilioxuthus','PanonchuscitriMcGregor','Phyllocoptesoleiverusashmead','IceryapurchasiMaskell',
+        'Unaspisyanonensis','Ceroplastesrubens','Chrysomphalusaonidum','ParlatoriazizyphusLucus','Nipaecoccusvastalor','Aleurocanthusspiniferus',
+        'TetradacuscBactroceraminax','Dacusdorsalis(Hendel)','Bactroceratsuneonis','Prodenialitura','Adristyrannus','PhyllocnistiscitrellaStainton','Toxopteracitricidus',
+        'Toxopteraaurantii','AphiscitricolaVanderGoot','ScirtothripsdorsalisHood','Dasineurasp','LawanaimitataMelichar','SalurnismarginellaGuerr','DeporausmarginatusPascoe',
+        'Chlumetiatransversa','Mangoflatbeakleafhopper','Rhytidoderabowriniiwhite','Sternochetusfrigidus','Cicadellidae']
